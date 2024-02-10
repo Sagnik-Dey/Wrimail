@@ -17,7 +17,9 @@ The editor looks like this
 > * Javascript
 
 ## How to use
-* ### Direct use
+* ### Direct use (Windows version)
+* Download the installer and install the software from [here](https://github.com/Sagnik-Dey/Wrimail/raw/main/Output/wrimail-setup.exe) *(Windows Version is available olny as of now)*
+
 * ### Through Python
 
 * Clone the repository
