@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e0f4ff;
+  overflow: hidden;
+}
+
+.file-chooser-section {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 77vw;
+  margin-left: 60px;
+}
+.total-section {
+  display: inline-block;
+}
+.align-div {
+  display: flex;
+  width: 100%;
+}
+.recent-files-section {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.card-section {
+  margin-top: 20px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 55vh;
+  margin-bottom: 30px;
+}
+.left-nav {
+  width: 190px;
+  min-width: 190px;
+  height: 100vh;
+  background-color: #bfe0ff;
+  padding: 30px 0;
+  display: inline;
+  float: left;
+}
+.nav-btn {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  margin-top: 20px;
+  font-family: "Montserrat";
+  padding: 15px;
+}
+.active-btn {
+  background-color: #39a7ff;
+  border-left: 7px solid #12436a;
+}
+.file-icon {
+  width: 40px;
+  position: absolute;
+  left: 20px;
+  top: 0;
+  transform: translateY(65%);
+}
+.recent-file-card {
+  position: relative;
+  background-color: #bfe0ff;
+  border-radius: 10px;
+  height: 93px;
+  margin-top: 20px;
+  /* margin-bottom: 30px; */
+}
+.file-name {
+  display: inline-block;
+  margin-top: 19px;
+  margin-left: 80px;
+  font-family: "Poppins";
+  font-size: 17px;
+  color: #000000;
+  width: 100%;
+}
+.file-path {
+  display: inline-block;
+  color: #285075;
+  font-family: "Poppins";
+  font-size: 13px;
+  margin-top: 7px;
+  margin-left: 80px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 15px;
+  border-radius: 7px;
+  border: 1px solid #000000;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.btn-grp {
+  margin-top: 30px;
+}
+.nav-icon {
+  width: 24px;
+}
+.icon-txt {
+  font-family: 'Montserrat';
+  font-size: 12px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+#chosen-file-path {
+  width: 68vw;
+  margin-right: 20px;
+  border-radius: 7px;
+  background-color: #bfe0ff;
+  height: 40px;
+  min-width: 85%;
+  display: inline-block;
+}
+#choose-file-btn {
+  text-decoration: none;
+  padding: 12px;
+  display: inline;
+  border-radius: 7px;
+  background-color: #39a7ff;
+  color: #000000;
+  font-family: "Montserrat";
+  font-size: 13px;
+  width: -webkit-fill-available;
+  text-align: center;
+}
+#open-file-btn {
+  text-decoration: none;
+  padding: 12px;
+  width: 100%;
+  display: inline-block;
+  border-radius: 7px;
+  background-color: #39a7ff;
+  color: #000000;
+  font-family: "Montserrat";
+  font-size: 13px;
+  margin-top: 20px;
+  text-align: center;
+}
+#recent-file-heading {
+  font-family: "Poppins";
+  font-size: 25px;
+  font-weight: 500;
+}
+#path-inp {
+  font-family: "Montserrat";
+  font-size: 13px;
+  padding: 11px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  /* margin-top: 30px; */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+  margin-top: 20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #004882;
+  border-radius: 30px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #006ac1;
+}

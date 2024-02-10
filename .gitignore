@@ -1,0 +1,5 @@
+build/
+dist/
+main.spec
+setup.py
+setup.iss

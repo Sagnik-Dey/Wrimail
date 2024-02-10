@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e0f4ff;
+  overflow: hidden;
+}
+
+.menu-btn {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-size: 13px;
+  font-weight: 500;
+  padding: 12px;
+}
+.menu-bar {
+  padding: 10px 0;
+}
+.taskbar-btn {
+  width: 40px;
+  margin: 10px 15px;
+}
+.taskbar {
+  margin-top: 10px;
+}
+.editor-text {
+  font-family: "Montserrat";
+  font-size: 12px;
+  white-space: pre-wrap;
+}
+.text-to-change {
+  font-family: "Montserrat";
+  border: none;
+  color: #bd0029;
+  font-size: 12px;
+  width: fit-content;
+}
+.text-to-change:active {
+  border: none;
+}
+.editor-parent {
+  height: 75vh;
+  max-height: 75vh;
+  overflow: auto;
+  width: 100vw;
+  margin-top: 50px;
+}
+.find-div {
+  position: absolute;
+  width: 540px;
+  height: 50px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  background-color: #1f2c36;
+}
+.find--div {
+  height: 53px;
+  width: 648px;
+}
+.arrow-logo {
+  width: 30px;
+  position: absolute;
+  top: 0;
+  transform: translateY(39%);
+}
+.highlight {
+  background-color: rgb(187, 141, 254);
+}
+.highlight-one {
+  background-color: rgb(55, 0, 138);
+  color: #ffffff;
+}
+.warning-div {
+  background-color: #f1d853;
+  padding: 10px;
+  width: 100vw;
+}
+.file-name-div {
+  display: inline-flex;
+  width: 90%;
+}
+.template-lst,
+.pages-lst {
+  padding: 20px;
+  background-color: #eeeeee;
+  display: inline-block;
+  border-radius: 7px;
+  max-height: 200px;
+  overflow: auto;
+  position: absolute;
+  box-shadow: -6px 6px 10px #565656;
+  left: 345px;
+  top: 105px;
+
+  &::-webkit-scrollbar {
+    width: 7px;
+    /* margin-top: 30px; */
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: transparent;
+    margin-top: 20px;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: #cdcdcd;
+    border-radius: 30px;
+  }
+
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: #a6a6a6;
+  }
+}
+.pages-lst {
+  left: 415px;
+}
+.temp-lst-,
+.page-lst- {
+  font-family: "Montserrat";
+  font-size: 12px;
+  background-color: #cdcdcd;
+  padding: 10px;
+  margin: 10px auto;
+  padding: 10px 30px;
+  border-radius: 7px;
+}
+.page-lst- {
+  width: 130px;
+}
+.temp-lst,
+.page-lst {
+  list-style: none;
+  margin-top: 30px;
+  font-family: "Montserrat";
+  font-size: 13px;
+}
+
+.editor {
+  background-color: #ffffff;
+  width: 70vw;
+  min-height: 3000px;
+  margin: 0 auto;
+  padding: 50px;
+  margin-bottom: 10px;
+}
+#file-menu-btn {
+  background-color: #39a7ff;
+}
+#find-text {
+  background: transparent;
+  margin-top: 18px;
+  margin-left: 30px;
+  width: 45%;
+  caret-color: #ffffff;
+  border: none;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-size: 13px;
+}
+#find-text:focus {
+  outline: none;
+}
+#match-res {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 13px;
+  font-family: "Montserrat";
+  margin-left: 45px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+#close-img {
+  position: absolute;
+  width: 20px;
+  right: 20px;
+  top: 0;
+  transform: translateY(85%);
+}
+#read-only-cont-text {
+  display: inline-block;
+  font-family: "Montserrat";
+  font-size: 13px;
+  margin-left: 10px;
+}
+#edit-btn {
+  background: transparent;
+  border: 1px solid #1e1e1e;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-size: 12px;
+  padding: 4px 35px;
+  margin-left: 30px;
+  border-radius: 5px;
+}
+#find--text,
+#replace--text {
+  border: 1px solid #000000;
+  background-color: transparent;
+  border-radius: 7px;
+  font-family: "Montserrat";
+  font-size: 13px;
+  color: #ffffff;
+  caret-color: #ffffff;
+  margin-left: 20px;
+  margin-top: 16px;
+  padding: 3px;
+}
+#replace-btn {
+  background-color: #182027;
+  color: #ffffff;
+  border-radius: 7px;
+  margin-top: 16px;
+  padding: 6px 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-size: 13px;
+}
+#file-title {
+  display: inline-block;
+  font-family: "Montserrat";
+  font-size: 13px;
+  text-align: center;
+  width: 97%;
+}
+#template-guide {
+  font-family: "Montserrat";
+  font-size: 13px;
+  font-weight: 500;
+  margin: 20px auto;
+}
+#temp-close-icon,
+#page-close-icon {
+  width: 16px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.editor-text:focus {
+  outline: 0.5px solid #ababab;
+}
+.editor-text::selection {
+  background-color: #12436a;
+  color: #ffffff;
+}

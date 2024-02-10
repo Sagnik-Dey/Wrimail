@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Wrimail</title>
+    <link rel="shortcut icon" href="assets/image/icon-modified.ico" type="image/x-icon">
+    <script src="../eel.js"></script>
+  </head>
+  <body>
+    <div class="left-nav">
+      <a href="" id="new-btn" class="nav-btn active-btn">New</a>
+      <a href="" id="open-btn" class="nav-btn">Open</a>
+      <a href="" id="save-btn" class="nav-btn">Save As</a>
+      <div class="btn-grp">
+        <div class="btn" id="save--btn">
+          <img
+            src="assets/image/save-icon.png"
+            class="nav-icon"
+            alt="save-icon"
+          />
+          <p class="icon-txt">Save</p>
+        </div>
+        <div class="btn" id="back-btn">
+          <img
+            src="assets/image/back-icon.png"
+            class="nav-icon"
+            alt="exit-icon"
+          />
+          <p class="icon-txt">Back</p>
+        </div>
+      </div>
+    </div>
+    <div class="template-div">
+      <div class="inside">
+        <img src="assets/template_img/blank_doc.png" class="img-temp active-img-temp" id="blank_doc" alt="" />
+        <img src="assets/template_img/prof_email.png" class="img-temp" id="prof_email" alt="" />
+        <img src="assets/template_img/subs_confirm.png" class="img-temp" id="subs_confirm" alt="" />
+        <img src="assets/template_img/thank_req.png" class="img-temp" id="thank_req" alt="" />
+        <img src="assets/template_img/link_vid.png" class="img-temp" id="link_vid" alt="" />
+        <img src="assets/template_img/curiosity.png" class="img-temp" id="curiosity" alt="" />
+        <img src="assets/template_img/reminder.png" class="img-temp" id="reminder" alt="" />
+        <img src="assets/template_img/publish_splight.png" class="img-temp" id="publish_splight" alt="" />
+      </div>
+    </div>
+    <div class="right-nav">
+      <div class="page">
+        <pre id="temp-cont"></pre>
+      </div>
+      <a href="" id="create-btn">Create</a>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>

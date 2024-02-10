@@ -1,0 +1,11 @@
+Hi [name],
+
+Thanks for requesting the [company name] [eBook/white paper] about [topic]. As promised, this email contains the materials that you signed up to receive.
+
+We sincerely hope that you find this content useful and that you head to our site here [link] to find other [blog posts/articles/templates] on the same subject.
+
+Please find the attached documents at the bottom of this message.
+
+Kind regards,
+[Name], [position] at [company]
+

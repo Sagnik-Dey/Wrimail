@@ -1,0 +1,12 @@
+Hello [name],
+
+We've recently written a new article called [title] that, as someone who has expressed an interest in [product/service/topic], we are sure you'll find interesting.
+
+You can find our article here [link] on [external publisher's name]'s website.
+
+It is a privilege for us to have our content shared there, and we hope that our subscribers like yourself will take the opportunity to read more of their other content too.
+
+Hope you enjoy reading!
+
+Best
+[Company]

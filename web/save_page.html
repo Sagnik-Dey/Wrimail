@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/save.css" />
+    <title>Wrimail</title>
+    <link rel="shortcut icon" href="assets/image/icon-modified.ico" type="image/x-icon">
+    <script src="../eel.js"></script>
+  </head>
+  <body>
+    <div class="left-nav">
+      <a href="file_page.html" id="new-btn" class="nav-btn">New</a>
+      <a href="open_page.html" id="open-btn" class="nav-btn">Open</a>
+      <a href="" id="save-btn" class="nav-btn active-btn">Save As</a>
+      <div class="btn-grp">
+        <div class="btn" id="save--btn">
+          <img
+            src="assets/image/save-icon.png"
+            class="nav-icon"
+            alt="save-icon"
+          />
+          <p class="icon-txt">Save</p>
+        </div>
+        <div class="btn" id="back-btn">
+          <img
+            src="assets/image/back-icon.png"
+            class="nav-icon"
+            alt="exit-icon"
+          />
+          <p class="icon-txt">Back</p>
+        </div>
+      </div>
+    </div>
+    <div class="right-section">
+      <h1 id="save-guide">Save As</h1>
+      <div class="select-section">
+        <select name="" id="file-select">
+          <option value="wmail">Wmail File (Recommended)</option>
+          <option value="txt">Txt File</option>
+        </select>
+        <a href="" id="save-file-btn">Save File</a>
+      </div>
+    </div>
+    <script src="js/save.js"></script>
+  </body>
+</html>

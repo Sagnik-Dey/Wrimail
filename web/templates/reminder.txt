@@ -1,0 +1,10 @@
+Hi [name],
+
+We're just writing to let you know that the [title] webinar that you registered for is taking place [today/tomorrow/this week] at [time and timezone].
+
+Click on the button below to learn more about the webinar.
+
+[Find out more]
+
+See you soon!
+[Name], [position] at [company]

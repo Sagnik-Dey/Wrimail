@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/editor.css" />
+    <title>Wrimail</title>
+    <link rel="shortcut icon" href="assets/image/icon-modified.ico" type="image/x-icon">
+    <script src="../eel.js"></script>
+  </head>
+  <body>
+    <div class="menu-bar">
+      <a href="" class="menu-btn" id="file-menu-btn">File</a>
+      <a href="" class="menu-btn" id="home-menu-btn">Home</a>
+      <div class="file-name-div">
+        <p id="file-title">untitled</p>
+      </div>
+    </div>
+    <div class="taskbar">
+      <img src="assets/image/zoom_in.png" class="taskbar-btn" id="zoom-in" alt="" title="Zoom In" />
+      <img src="assets/image/zoom_out.png" class="taskbar-btn" id="zoom-out" alt="" title="Zoom Out"/>
+      <img src="assets/image/file_find.png" class="taskbar-btn" id="find-btn" alt="" title="Find text" />
+      <img src="assets/image/replace.png" class="taskbar-btn" id="replace-task-btn" alt="" title="Find and replace"/>
+      <img src="assets/image/add-page-icon.png" class="taskbar-btn" id="add-page-btn" alt="" title="Add page"/>
+      <img src="assets/image/delete-page-icon.png" class="taskbar-btn" id="delete-page-btn" alt="" style="height: 40px; width: 45px;" title="Delete page"/>
+    </div>
+    <div class="warning-div">
+      <p id="read-only-cont-text">The template content is read-only. To enable editing click on the edit button</p>
+      <a href="" id="edit-btn">Edit</a>
+    </div>
+    <div class="editor-parent">
+      <div class="editor"></div>
+    </div>
+    <!-- <input type="text" va> -->
+    <script src="js/editor.js"></script>
+  </body>
+</html>

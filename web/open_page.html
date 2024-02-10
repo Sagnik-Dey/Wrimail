@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/open.css" />
+    <link rel="shortcut icon" href="assets/image/icon-modified.ico" type="image/x-icon">
+    <title>Wrimail</title>
+    <script src="../eel.js"></script>
+  </head>
+  <body>
+    <div class="left-nav">
+      <a href="file_page.html" id="new-btn" class="nav-btn">New</a>
+      <a href="" id="open-btn" class="nav-btn active-btn">Open</a>
+      <a href="save_page.html" id="save-btn" class="nav-btn">Save As</a>
+      <div class="btn-grp">
+        <div class="btn" id="save--btn">
+          <img
+            src="assets/image/save-icon.png"
+            class="nav-icon"
+            alt="save-icon"
+          />
+          <p class="icon-txt">Save</p>
+        </div>
+        <div class="btn" id="back-btn">
+          <img
+            src="assets/image/back-icon.png"
+            class="nav-icon"
+            alt="exit-icon"
+          />
+          <p class="icon-txt">Back</p>
+        </div>
+      </div>
+    </div>
+    <div class="total-section">
+      <div class="file-chooser-section">
+        <div class="align-div">
+          <span id="chosen-file-path">
+            <p id="path-inp"></p>
+          </span>
+          <a href="" id="choose-file-btn">Choose File</a>
+        </div>
+        <a href="" id="open-file-btn">Open</a>
+      </div>
+      <div class="recent-files-section">
+        <h1 id="recent-file-heading">Recent Files</h1>
+        <div class="card-section">
+          <!-- <div class="recent-file-card">
+            <img src="assets/image/file_icon.png" class="file-icon" alt="" />
+            <p class="file-name">File Name</p>
+            <p class="file-path">C:\Documents\Folder\Folder\Folder</p>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <script src="js/open.js"></script>
+  </body>
+</html>
