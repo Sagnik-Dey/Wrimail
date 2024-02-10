@@ -23,4 +23,4 @@ def decrypt_file(input_file, output_file):
         f.write(plaintext)
         
 if __name__ == "__main__":
-    decrypt_file("shit.wmail", "shit.wmail")
+    pass
